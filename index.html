@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Shed Skin — An experimental (restricted-Python)-to-C++ compiler</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	</head>
+
+	<body>
+
+		<h1>Shed Skin</h1>
+		<h2>An experimental (restricted-Python)-to-C++ compiler</h2>
+
+		<p><b>Shed Skin</b> is an <i>experimental</i> compiler, that can translate pure, but <i>implicitly statically</i> typed Python (2.4-2.6) programs into optimized C++. It can generate stand-alone programs or extension modules that can be imported and used in larger Python programs.</p>
+
+		<p>Besides the typing restriction, programs cannot freely use the Python standard library (although about 25 common modules, such as <b>random</b> and <b>re</b>, are currently supported). Also, not all Python features, such as nested functions and variable numbers of arguments, are supported (see the <a href="docs">documentation</a> for details).</p>
+
+		<p>For a set of <a href="http://shedskin.googlecode.com/files/shedskin-examples-0.9.4.tgz">75 non-trivial programs</a> (at over 25,000 lines in total (sloccount)), measurements show a typical speedup of 2-200 times over CPython.</p>
+
+		<p>Featured downloads:</p>
+		<ul>
+			<li><a href="https://shedskin.googlecode.com/files/shedskin-0.9.4.exe">shedskin-0.9.4.exe</a> Shed Skin 0.9.4 (Windows)</li>
+			<li><a href="https://shedskin.googlecode.com/files/shedskin-0.9.4.tgz">shedskin-0.9.4.tgz</a> Shed Skin 0.9.4 (GNU/Linux, OSX)</li>
+			<li><a href="https://shedskin.googlecode.com/files/shedskin-examples-0.9.4.tgz">shedskin-examples-0.9.4.tgz</a> Shed Skin Examples 0.9.4</li>
+		</ul>
+
+		<p>The following people have contributed to <b>Shed Skin</b> development so far:</p>
+
+		<p>Hakan Ardo, Brian Blais, Paul Boddie, François Boutines, Djamel Cherif, James Coughlan, Mark Dewing, Mark Dufour, Artem Egorkine, Michael Elkins, Moataz Elmasry, Enzo Erbano, Ernesto Ferro, Salvatore Ferro, FFAO, Victor Garcia, Luis M. Gonzales, Fahrzin Hemmati, Karel Heyse, Kousuke, Denis de Leeuw Duarte, Van Lindberg, David Marek, Douglas McNeil, Andy Miller, Jeff Miller, Danny Milosavljevic, Joaquin Abian Monux, John Nagle, Harri Pasanen, Brent Pedersen, Joris van Rantwijk, Pierre-Marie de Rodat, Jérémie Roquet, Mike Schrick, SirNotAppearingInThisTutorial, Thomas Spura, Joerg Stippa, Dave Tweed, Jaroslaw Tworek, Tony Veijalainen, Pavel Vinogradov, Jason Ye, Liu Zhenhai, Joris van Zwieten</p>
+
+		<p style="text-align: center;">Contact: <a href="mailto:shedskin-discuss@googlegroups.com">shedskin-discuss@googlegroups.com</a></p>
+
+		<p><a href="https://github.com/shedskin/shedskin/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a></p>
+
+	</body>
+
+</html>
