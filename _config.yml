@@ -1,3 +1,5 @@
 baseurl: 'http://shedskin.github.io'
+gems:
+    - jekyll-redirect-from
 exclude:
     - README.md
